@@ -1,0 +1,42 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+
+.noir   { background-color: #0E141F; }
+.yellow { background-color: #FFCB36; }
+.orange { background-color: #FF7C35; }
+.red    { background-color: #E31D65; }
+.green  { background-color: #25A954; }
+.blue   { background-color: #007D97; }
+.purple { background-color: #553AB8; }
+
+body {
+	padding: 40px;
+	margin: 0;
+}
+
+.blocks {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.blocks li {
+	height: 60px;
+	border-radius: 3px;
+	/*float: left;*/
+	/*width: 18px;*/
+	/*margin-right: 4px;*/
+
+	color: white;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 80px
+}
+
+.blocks li:not(:last-child) {
+	margin-bottom: 40px;
+}

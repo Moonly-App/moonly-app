@@ -1,0 +1,77 @@
+{
+  "public": {
+    "title": "Moon.ly - Discover Best Content",
+    "description": "Moon.ly is a Google Chrome extension that shows curated content upon opening Chrome or a new tab.",
+
+    "logoUrl": "https://moon.ly/packages/moonly/lib/static/logo.png",
+    "faviconUrl": "https://image.prntscr.com/image/l1czDUFMSLyf4LQa9uGHWg.png",
+    "siteImage": "https://image.prntscr.com/image/F0GhZuUAQQyIXB2gYx8_7g.png",
+
+    "forum": {"requirePostsApproval": true},
+    "requireViewInvite": false,
+    "requirePostInvite": false,
+
+    "autoSubscribe": true,
+    "emailNotifications": true,
+    "postInterval": 12,
+    "RSSLinksPointTo": "link",
+    "commentInterval": 20,
+    "maxPostsPerDay": 50,
+    "startInvitesCount": 5,
+    "postsPerPage": 12,
+
+    "language": "en",
+    "locale": "en",
+
+    "twitterAccount": "foo",
+    "facebookPage": "http://facebook.com/foo",
+
+    "googleAnalyticsId": "UA-1200538-30",
+    "useSegment": false,
+    "segmentWriteKey": "456bar",
+
+    "cloudinary": {
+      "cloudName": "dd4z3yuf5",
+      "upload_preset": "fp5hiyzf"
+    }
+  },
+
+  "siteUrl": "https://moon.ly/",
+  "defaultEmail": "stefan@vanila.io",
+  "scoreUpdateInterval": "30",
+  "embedlyKey": "bd89534970ff461e8b728f89c0038ee3",
+
+  "postExcerptLength": 30, 
+
+  "newsletter": {
+    "enabled": true,
+    "time": "19:30",
+    "frequency" : [1],
+    "autoSubscribe":true
+  },
+
+  "enableNewsletter":true,
+  "enableNewsletterInDev":true,
+  "newsletterProvider": "mailchimp",
+  "mailchimp": {
+    "apiKey": "d8db09c7df0db9ae39bff34b77484227-us14",
+    "listId": "6a46792272",
+    "fromName": "Moonly",
+    "fromEmail": "stefan@vanila.io"
+  },
+  "newsletterExcerptLength": 20,
+
+
+  "mailUrl":"smtp://postmaster@mg.vanila.io:3be66e7b0b5ce503c68c5788fe2aa612@smtp.mailgun.org:587/",  
+
+  "oAuth": {
+    "twitter": {
+      "consumerKey": "4Sw14i25v7T0Jlz1rBP4DyHGT",
+      "secret": "aImonCrRTusvX1qfnAmZlK98Pv6fQAoUY6I2UUGhF2c2lEKc1T"
+    },
+    "facebook": {
+      "appId": "1472882479415624",
+      "secret": "6a15cc6844dda72a6a8950ca638ee4c2"
+    }
+  }
+}

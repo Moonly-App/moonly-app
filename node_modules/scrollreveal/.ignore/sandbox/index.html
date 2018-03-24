@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sandbox</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        html {
+            overflow-x: hidden;
+            /*height: 5000px;*/
+        }
+        /*.blocks li {
+            visibility: hidden;
+        }*/
+        .floating-button {
+            top: 16px;
+            left: 16px;
+            position: fixed;
+            background: white;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: none;
+        }
+        .floating-button:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="noir">
+    <ul class="blocks">
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li id="fan" class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li>
+        <li class="red"></li>
+        <li class="orange"></li>
+        <li class="yellow"></li>
+        <li class="green"></li>
+        <li class="blue"></li>
+        <li class="purple"></li
+    </ul>
+
+    <div class="floating-button"></div>
+
+    <script src="./js/scrollreveal.js"></script>
+    <script>
+
+        const sr = new ScrollReveal()
+        const config = {
+            distance: '100%',
+            // duration: 600,
+            origin: 'right',
+            // scale: 0,
+            // delay: 2000,
+            // useDelay: 'onload',
+            // reset: true,
+            // beforeReveal: showIds,
+            // beforeReset: (e) => console.log('BEFORE reset'),
+            // afterReveal: (e) => console.log('AFTER revealed'),
+            // afterReset: (e) => console.log('AFTER reset'),
+            // rotate: { z: 5 },
+            // container: 'invalid',
+            // opacity: null,
+            // viewFactor: 2,
+            // viewOffset: { top: 200, bottom: 200 },
+            // desktop: false,
+        }
+        sr.debug = true
+        sr.reveal('.blocks li', config)
+        sr.reveal('#fan', Object.assign({}, config, {
+            afterReveal: sr.destroy.bind(sr)
+        }))
+
+        function showIds (el) {
+            const id = parseInt(el.getAttribute('data-sr-id'))
+            const index = sr.store.elements[id].sequence.index
+            el.innerHTML = index
+        }
+
+        document
+            .querySelector('.floating-button')
+            .addEventListener('click', e => {
+                sr.clean('.blocks li')
+                sr.sync()
+            })
+
+    </script>
+</body>
+</html>

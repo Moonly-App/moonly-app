@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for lib/src/instance/functions/style.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">all files</a> / <a href="index.html">lib/src/instance/functions/</a> style.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">1.45% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/69</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/62</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">1.52% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/66</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import {
+	parse,
+	multiply,
+	rotateX,
+	rotateY,
+	rotateZ,
+	scale,
+	translateX,
+	translateY,
+} from 'rematrix'
+&nbsp;
+import { getPrefixedStyleProperty } from '../../utils/browser'
+&nbsp;
+&nbsp;
+export default <span class="fstat-no" title="function not covered" >function style (element) {</span>
+<span class="cstat-no" title="statement not covered" >	var computed = window.getComputedStyle(element.node)</span>
+<span class="cstat-no" title="statement not covered" >	var position = computed.position</span>
+<span class="cstat-no" title="statement not covered" >	var config = element.config</span>
+&nbsp;
+	/**
+	 * Generate inline styles
+	 */
+<span class="cstat-no" title="statement not covered" >	var inlineRegex = /.+[^;]/g</span>
+<span class="cstat-no" title="statement not covered" >	var inlineStyle = element.node.getAttribute('style') || ''</span>
+<span class="cstat-no" title="statement not covered" >	var inlineMatch = inlineRegex.exec(inlineStyle)</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >	var inline = (inlineMatch) ? ((inlineMatch[0]) + ";") : ''</span>
+<span class="cstat-no" title="statement not covered" >	if (inline.indexOf('visibility: visible') === -1) {</span>
+<span class="cstat-no" title="statement not covered" >		inline += (inline.length) ? ' ' : ''</span>
+<span class="cstat-no" title="statement not covered" >		inline += 'visibility: visible;'</span>
+	}
+&nbsp;
+	/**
+	 * Generate opacity styles
+	 */
+<span class="cstat-no" title="statement not covered" >	var computedOpacity = parseFloat(computed.opacity)</span>
+<span class="cstat-no" title="statement not covered" >	var configOpacity = !isNaN(parseFloat(config.opacity))</span>
+		? parseFloat(config.opacity)
+		: parseFloat(computed.opacity)
+&nbsp;
+<span class="cstat-no" title="statement not covered" >	var opacity = {</span>
+		computed: (computedOpacity !== configOpacity) ? ("opacity: " + computedOpacity + ";") : '',
+		generated: (computedOpacity !== configOpacity) ? ("opacity: " + configOpacity + ";") : '',
+	}
+&nbsp;
+	/**
+	 * Generate transformation styles
+	 */
+<span class="cstat-no" title="statement not covered" >	var transformations = []</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >	if (parseFloat(config.distance)) {</span>
+<span class="cstat-no" title="statement not covered" >		var axis = (config.origin === 'top' || config.origin === 'bottom') ? 'Y' : 'X'</span>
+&nbsp;
+		/**
+		 * Let’s make sure our our pixel distances are negative for top and left.
+		 * e.g. { origin: 'top', distance: '25px' } starts at `top: -25px` in CSS.
+    	 */
+<span class="cstat-no" title="statement not covered" >		var distance = config.distance</span>
+<span class="cstat-no" title="statement not covered" >		if (config.origin === 'top' || config.origin === 'left') {</span>
+<span class="cstat-no" title="statement not covered" >			distance = /^-/.test(distance)</span>
+				? distance.substr(1)
+				: ("-" + distance)
+		}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		var ref = distance.match(/(^-?\d+\.?\d?)|(em$|px$|\%$)/g);</span>
+<span class="cstat-no" title="statement not covered" >		var value = ref[0];</span>
+<span class="cstat-no" title="statement not covered" >		var unit = ref[1];</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		switch (unit) {</span>
+			case 'em':
+<span class="cstat-no" title="statement not covered" >				distance = parseInt(computed.fontSize) * value</span>
+<span class="cstat-no" title="statement not covered" >				break</span>
+			case 'px':
+<span class="cstat-no" title="statement not covered" >				distance = value</span>
+<span class="cstat-no" title="statement not covered" >				break</span>
+			case '%':
+<span class="cstat-no" title="statement not covered" >				distance = (axis === 'Y')</span>
+					? element.node.getBoundingClientRect().height * value / 100
+					: element.node.getBoundingClientRect().width * value / 100
+<span class="cstat-no" title="statement not covered" >				break</span>
+			default:
+<span class="cstat-no" title="statement not covered" >				throw new RangeError('Unrecognized or missing distance unit.')</span>
+		}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		(axis === 'Y')</span>
+			? transformations.push(translateY(distance))
+			: transformations.push(translateX(distance))
+	}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >	if (config.rotate.x) { <span class="cstat-no" title="statement not covered" >transformations.push(rotateX(config.rotate.x)) }</span></span>
+<span class="cstat-no" title="statement not covered" >	if (config.rotate.y) { <span class="cstat-no" title="statement not covered" >transformations.push(rotateY(config.rotate.y)) }</span></span>
+<span class="cstat-no" title="statement not covered" >	if (config.rotate.z) { <span class="cstat-no" title="statement not covered" >transformations.push(rotateZ(config.rotate.z)) }</span></span>
+<span class="cstat-no" title="statement not covered" >	if (config.scale !== 1) {</span>
+<span class="cstat-no" title="statement not covered" >		config.scale === 0</span>
+			? transformations.push(scale(0.0002))
+			: transformations.push(scale(config.scale))
+	}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >	var transform = {}</span>
+<span class="cstat-no" title="statement not covered" >	if (transformations.length) {</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		transform.property = getPrefixedStyleProperty('transform')</span>
+		/**
+		* The default computed transform value should be one of:
+		* undefined || 'none' || 'matrix()' || 'matrix3d()'
+		*/
+<span class="cstat-no" title="statement not covered" >		transform.computed = {</span>
+			raw: computed[transform.property],
+			matrix: parse(computed[transform.property]),
+		}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		transformations.unshift(transform.computed.matrix)</span>
+<span class="cstat-no" title="statement not covered" >		var product = transformations.reduce(multiply)</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		transform.generated = {</span>
+			initial: ((transform.property) + ": matrix3d(" + (product.join(', ')) + ");"),
+			final: ((transform.property) + ": matrix3d(" + (transform.computed.matrix.join(', ')) + ");"),
+		}
+	} else {
+<span class="cstat-no" title="statement not covered" >		transform.generated = {</span>
+			initial: '',
+			final: '',
+		}
+	}
+&nbsp;
+	/**
+	 * Generate transition styles
+	 */
+<span class="cstat-no" title="statement not covered" >	var transition = {}</span>
+<span class="cstat-no" title="statement not covered" >	if (opacity.generated || transform.generated.initial) {</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		transition.property = getPrefixedStyleProperty('transition')</span>
+<span class="cstat-no" title="statement not covered" >		transition.computed = computed[transition.property]</span>
+<span class="cstat-no" title="statement not covered" >		transition.fragments = []</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		var delay = config.delay;</span>
+<span class="cstat-no" title="statement not covered" >		var duration = config.duration;</span>
+<span class="cstat-no" title="statement not covered" >		var easing = config.easing;</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		if (opacity.generated) {</span>
+<span class="cstat-no" title="statement not covered" >			transition.fragments.push({</span>
+				delayed: ("opacity " + (duration / 1000) + "s " + easing + " " + (delay / 1000) + "s"),
+				instant: ("opacity " + (duration / 1000) + "s " + easing + " 0s"),
+			})
+		}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		if (transform.generated.initial) {</span>
+<span class="cstat-no" title="statement not covered" >			transition.fragments.push({</span>
+				delayed: ((transform.property) + " " + (duration / 1000) + "s " + easing + " " + (delay / 1000) + "s"),
+				instant: ((transform.property) + " " + (duration / 1000) + "s " + easing + " 0s"),
+			})
+		}
+&nbsp;
+		/**
+		 * The default computed transition property should be one of:
+		 * undefined || '' || 'all 0s ease 0s' || 'all 0s 0s cubic-bezier()'
+		 */
+<span class="cstat-no" title="statement not covered" >		if (transition.computed &amp;&amp; !transition.computed.match(/all 0s/)) {</span>
+<span class="cstat-no" title="statement not covered" >			transition.fragments.unshift({</span>
+				delayed: transition.computed,
+				instant: transition.computed,
+			})
+		}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		var composed = transition.fragments.reduce(<span class="fstat-no" title="function not covered" >function (composition, fragment, i) {</span></span>
+<span class="cstat-no" title="statement not covered" >			composition.delayed += (i === 0) ? fragment.delayed : (", " + (fragment.delayed))</span>
+<span class="cstat-no" title="statement not covered" >			composition.instant += (i === 0) ? fragment.instant : (", " + (fragment.instant))</span>
+<span class="cstat-no" title="statement not covered" >			return composition</span>
+		}, {
+			delayed: '',
+			instant: '',
+		})
+&nbsp;
+<span class="cstat-no" title="statement not covered" >		transition.generated = {</span>
+			delayed: ((transition.property) + ": " + (composed.delayed) + ";"),
+			instant: ((transition.property) + ": " + (composed.instant) + ";"),
+		}
+	} else {
+<span class="cstat-no" title="statement not covered" >		transition.generated = {</span>
+			delayed: '',
+			instant: '',
+		}
+	}
+&nbsp;
+<span class="cstat-no" title="statement not covered" >	return {</span>
+		inline: inline,
+		opacity: opacity,
+		position: position,
+		transform: transform,
+		transition: transition,
+	}
+}
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Jun 23 2017 06:11:36 GMT+0200 (CEST)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+.col {
+  width: 25%;
+  float: left;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
