@@ -26,9 +26,9 @@
     "twitterAccount": "foo",
     "facebookPage": "http://facebook.com/foo",
 
-    "googleAnalyticsId": "UA-1200538-30",
+    "googleAnalyticsId": "",
     "useSegment": false,
-    "segmentWriteKey": "456bar",
+    "segmentWriteKey": "",
 
     "cloudinary": {
       "cloudName": "dd4z3yuf5",
