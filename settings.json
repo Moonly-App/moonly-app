@@ -37,9 +37,9 @@
   },
 
   "siteUrl": "https://moon.ly/",
-  "defaultEmail": "stefan@vanila.io",
+  "defaultEmail": "",
   "scoreUpdateInterval": "30",
-  "embedlyKey": "bd89534970ff461e8b728f89c0038ee3",
+  "embedlyKey": "",
 
   "postExcerptLength": 30, 
 
@@ -52,26 +52,26 @@
 
   "enableNewsletter":true,
   "enableNewsletterInDev":true,
-  "newsletterProvider": "mailchimp",
+  "newsletterProvider": "",
   "mailchimp": {
-    "apiKey": "d8db09c7df0db9ae39bff34b77484227-us14",
-    "listId": "6a46792272",
-    "fromName": "Moonly",
-    "fromEmail": "stefan@vanila.io"
+    "apiKey": "",
+    "listId": "",
+    "fromName": "",
+    "fromEmail": ""
   },
   "newsletterExcerptLength": 20,
 
 
-  "mailUrl":"smtp://postmaster@mg.vanila.io:3be66e7b0b5ce503c68c5788fe2aa612@smtp.mailgun.org:587/",  
+  "mailUrl":"",  
 
   "oAuth": {
     "twitter": {
-      "consumerKey": "4Sw14i25v7T0Jlz1rBP4DyHGT",
-      "secret": "aImonCrRTusvX1qfnAmZlK98Pv6fQAoUY6I2UUGhF2c2lEKc1T"
+      "consumerKey": "",
+      "secret": ""
     },
     "facebook": {
-      "appId": "1472882479415624",
-      "secret": "6a15cc6844dda72a6a8950ca638ee4c2"
+      "appId": "",
+      "secret": ""
     }
   }
 }
