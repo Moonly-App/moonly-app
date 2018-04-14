@@ -41,7 +41,9 @@ The Moonly app depends on the following VulcanJS [packages](https://github.com/M
 - `vulcan:forms`
 - `vulcan:forms-upload`
 - `vulcan:accounts`
+- `vulcan:voting`
 - `example-forum`
+ 
 
 See also `package.json` for a list of NPM dependencies.
 
