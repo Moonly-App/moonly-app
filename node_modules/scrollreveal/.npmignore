@@ -1,8 +1,0 @@
-## generic files to ignore
-*~
-*.lock
-*.DS_Store
-*.sublime-project
-*.sublime-workspace
-node_modules
-dev

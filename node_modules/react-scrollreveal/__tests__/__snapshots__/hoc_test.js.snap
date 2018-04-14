@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`HOC should return wrapped React component with additional props 1`] = `
-<MyComponent
-  animationContainerReference={[Function]}
-  destroyRevealAnimation={[Function]}
-  refreshRevealAnimation={[Function]}
-/>
-`;
