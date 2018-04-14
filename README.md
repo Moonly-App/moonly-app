@@ -3,7 +3,7 @@
 This is an open-source app built using [VulcanJS](http://vulcanjs.org/). It is a place for discovering and sharing useful content for web developers, designers, marketers, growth hackers etc. 
 It is a web app, and it also has [Chrome extension](https://github.com/Moonly-App/moonly-extension) as part of it. 
 
-**Technology stack**: [React](https://reactjs.org/), [GraphQL](https://graphql.org/), [Apollo](https://www.apollographql.com/) and [Meteor}(https://www.meteor.com/)
+**Technology stack**: [React](https://reactjs.org/), [GraphQL](https://graphql.org/), [Apollo](https://www.apollographql.com/) and [Meteor](https://www.meteor.com/)
 
 **Live website**: https://moon.ly
 
