@@ -1,9 +1,0 @@
-node_modules
-package.json
-package-lock.json
-settings.json
-sample_settings.json
-yarn.lock
-jsdoc.json
-jsdoc-config-json
-build.sh
