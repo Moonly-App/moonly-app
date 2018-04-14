@@ -66,11 +66,14 @@ Check this [video tutorial](https://www.youtube.com/watch?v=-Ndiqsoza1E) on how 
 
 ## Contributing guidance
 
+**All PRs should be made to the `develop` branch, not `master`.**
+
 Before going ahead with customizing components and creating new features, please have in mind that you should
 
 **Never edit original core Vulcanjs packages!** You should only change what's inside the Moonly package.
 
 Check [this part](http://docs.vulcanjs.org/example-customization.html) of documentation to see how to customize existing and create new features.
+
 
 ## Getting help
 
