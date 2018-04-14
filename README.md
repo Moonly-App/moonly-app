@@ -7,6 +7,17 @@ It is a web app, and it also has [Chrome extension](https://github.com/Moonly-Ap
 
 **Live website**: https://moon.ly
 
+**Features**:
+
+- User registration
+- User profile page
+- Submit post option
+- Commenting
+- Likes, Votes
+- Filtering posts by category or view (latest, popular etc)
+- Tags/Categories
+- and some more..
+
 ![](https://i.imgur.com/I4y7TLL.png)
 
 
