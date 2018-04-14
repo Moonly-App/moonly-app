@@ -53,6 +53,7 @@ The Moonly app depends on the following VulcanJS [packages](https://github.com/M
 - `vulcan:forms`
 - `vulcan:forms-upload`
 - `vulcan:accounts`
+- `vulcan:voting`
 - `example-forum`
 
 See also `package.json` for a list of NPM dependencies.
@@ -86,4 +87,5 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 
 ## Credits and references
 
+- [Vanila.io](https://vanila.io) : Team which created and maintain the Moonly app.
 - [Vulcan.js](https://vulcanjs.org) : The full-stack React+GraphQL framework which is OS as well and Moonly is built with it.
