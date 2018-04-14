@@ -1,19 +1,41 @@
-<img src="https://d3vv6lp55qjaqc.cloudfront.net/items/2B3C1z2V2y421p2I0P42/vulcan-logo-noborder.png" width="200">
+# Moonly 🌙
 
-# Vulcan (formerly Telescope)
+This is an open-source app built using [VulcanJS](http://vulcanjs.org/). It is a Google Chrome extension that shows curated content upon opening Chrome or a new tab.
 
-[Version 1.6.0](https://github.com/TelescopeJS/Telescope/releases)
+Live website: https://moon.ly
 
-This is the Apollo/GraphQL version of Telescope, now known as [Vulcan](http://vulcanjs.org). [You can find the documentation here](http://docs.vulcanjs.org/).
+![](https://i.imgur.com/I4y7TLL.png)
 
-### Links
+----
 
-- [Vulcan Homepage](http://vulcanjs.org)
-- [Documentation](http://docs.vulcanjs.org)
-- [Old Telescope Homepage](http://telescopeapp.org)
+## Dependencies
 
-### Other Versions
+Install the latest version of Node and NPM. We recommend the usage of [NVM](https://github.com/creationix/nvm/blob/master/README.md).
 
-You can find the older, non-Apollo version of Telescope Nova on the [nova-classic](https://github.com/TelescopeJS/Telescope/tree/nova-classic) branch. 
+You can then install [Meteor](https://www.meteor.com/install).
 
-You can find the even older, non-React version of Telescope on the [legacy](https://github.com/TelescopeJS/Telescope/tree/legacy) branch.
+## Installation
+
+```
+git clone https://github.com/jelenajjo/os-moonly-test
+
+cd os-moonly-test
+
+npm install
+
+npm start
+
+```
+Now open http://localhost:3000/ in your browser.
+
+## Getting help
+
+If you have questions, concerns, bug reports, etc, please file an issue in this repository's Issue Tracker. 
+
+## Stay In Touch
+
+- [community chat](https://chat.vanila.io)
+
+
+----
+
