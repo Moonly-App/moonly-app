@@ -1,19 +1,74 @@
-<img src="https://d3vv6lp55qjaqc.cloudfront.net/items/2B3C1z2V2y421p2I0P42/vulcan-logo-noborder.png" width="200">
+# Moonly 🌙
 
-# Vulcan (formerly Telescope)
+This is an open-source app built using [VulcanJS](http://vulcanjs.org/). It is a place for discovering and sharing useful content for web developers, designers, marketers, growth hackers etc. 
+It is a web app, and it also has [Chrome extension](https://github.com/Moonly-App/moonly-extension) as part of it. 
 
-[Version 1.6.0](https://github.com/TelescopeJS/Telescope/releases)
+**Technology stack**: React, GraphQL, Apollo, Meteor
 
-This is the Apollo/GraphQL version of Telescope, now known as [Vulcan](http://vulcanjs.org). [You can find the documentation here](http://docs.vulcanjs.org/).
+**Live website**: https://moon.ly
 
-### Links
+![](https://i.imgur.com/I4y7TLL.png)
 
-- [Vulcan Homepage](http://vulcanjs.org)
-- [Documentation](http://docs.vulcanjs.org)
-- [Old Telescope Homepage](http://telescopeapp.org)
 
-### Other Versions
+## Installation
 
-You can find the older, non-Apollo version of Telescope Nova on the [nova-classic](https://github.com/TelescopeJS/Telescope/tree/nova-classic) branch. 
 
-You can find the even older, non-React version of Telescope on the [legacy](https://github.com/TelescopeJS/Telescope/tree/legacy) branch.
+Install the latest version of Node and NPM. We recommend the usage of [NVM](https://github.com/creationix/nvm/blob/master/README.md).
+
+You can then install [Meteor](https://www.meteor.com/install).
+
+To get started: clone this repo
+
+```
+git clone https://github.com/jelenajjo/os-moonly-test
+
+cd os-moonly-test
+
+npm install
+
+npm start
+
+```
+
+Then refer to the [Vulcan documentation](http://docs.vulcanjs.org/) for further information.
+
+
+## Dependencies
+
+The Moonly app depends on the following VulcanJS [packages](https://github.com/Moonly-App/moonly-app/blob/master/packages/moonly/package.js#L7-L15):
+
+- `vulcan:core`
+- `vulcan:forms`
+- `vulcan:forms-upload`
+- `vulcan:accounts`
+- `example-forum`
+
+See also `package.json` for a list of NPM dependencies.
+
+
+## Usage
+
+Check this [video tutorial](https://www.youtube.com/watch?v=-Ndiqsoza1E) on how to use Moonly app and extension.
+
+
+
+## Contributing guidance
+
+Before going ahead with customizing components and creating new features, please have in mind that you should
+
+**Never edit original core Vulcanjs packages!** You should only change what's inside the Moonly package.
+
+Check [this part](http://docs.vulcanjs.org/example-customization.html) of documentation to see how to customize existing and create new features.
+
+## Getting help
+
+If you have questions, concerns, bug reports, etc, please file an issue in this repository's issue tracker. 
+
+## Stay In Touch
+
+- [Vanila.io community chat](https://chat.vanila.io)
+- [Vulcan.js community chat](http://slack.vulcanjs.org/)
+
+## Credits and references
+
+- [Vulcan.js](https://vulcanjs.org) : The full-stack React+GraphQL framework which is OS as well and Moonly is built with it.
