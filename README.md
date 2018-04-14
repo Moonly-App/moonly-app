@@ -16,6 +16,7 @@ It is a web app, and it also has [Chrome extension](https://github.com/Moonly-Ap
 - Likes, Votes
 - Filtering posts by category or view (latest, popular etc)
 - Tags/Categories
+- Save posts to profile
 - etc...
 
 ![](https://i.imgur.com/I4y7TLL.png)
