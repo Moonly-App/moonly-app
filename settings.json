@@ -31,8 +31,8 @@
     "segmentWriteKey": "",
 
     "cloudinary": {
-      "cloudName": "dd4z3yuf5",
-      "upload_preset": "fp5hiyzf"
+      "cloudName": "",
+      "upload_preset": ""
     }
   },
 
