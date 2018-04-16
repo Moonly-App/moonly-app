@@ -1,14 +1,4 @@
-# ether-app-theme
 
-1. Download this and unzip
-2. Move whole *ether-app-theme* into `Vulcan/packages`
-3. Stop the running Vulcan app by `ctrl+c`(because it caused some issue when I do all while running app)
-4. Go in file `Vulcan/.meteor/packages` and:
-
-    - add your package `ether-app-theme` bellow the comment *##Your Packages##*
-    - comment out all other packages by placing `#` before them
-
-5. Restart the app with command `npm start` if nessessary
 
 # Image uploading
 
@@ -34,7 +24,7 @@ Then modify the cloudName and upload_preset to your account details.
 
 ```
 "cloudinary": {
-  "cloudName": "dd4z3yuf5",
-  "upload_preset": "fp5hiyzf"
+  "cloudName": "123456",
+  "upload_preset": "123456"
 }
 ```
