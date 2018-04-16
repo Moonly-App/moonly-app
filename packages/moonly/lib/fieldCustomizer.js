@@ -38,6 +38,15 @@ let postSchema = [
     control: "checkbox",
     group: formGroups.admin
     }
+  },
+  {
+    fieldName: 'clickCount',
+    fieldSchema: {
+      type: Number,
+      optional: true,
+      viewableBy: ['guests'],
+      defaultValue: 20
+    }
   }
 ]
 
