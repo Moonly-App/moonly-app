@@ -32,9 +32,9 @@ You can then install [Meteor](https://www.meteor.com/install).
 To get started: clone this repo
 
 ```
-git clone https://github.com/jelenajjo/os-moonly-test
+git clone https://github.com/Moonly-App/moonly-app
 
-cd os-moonly-test
+cd moonly-app
 
 npm install
 
