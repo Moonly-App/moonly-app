@@ -88,4 +88,10 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 ## Credits and references
 
 - [Vanila.io](https://vanila.io) : Team which created and maintain the Moonly app.
+  - Jelena: @jelenajjo [instagram](https://instagram.com/plavookac)
+  - Stefan: @shtefcs [facebook](https://www.facebook.com/stefan.smiljkovic)
+  - Tahy: @entrptaher [instagram](https://instagram.com/entrptaher)
+  - Vijay: [dribbble](https://dribbble.com/realvjy)
+  
 - [Vulcan.js](https://vulcanjs.org) : The full-stack React+GraphQL framework which is OS as well and Moonly is built with it.
+  - Sascha (Creator of VulcanJS): @SachaG [twitter](https://twitter.com/SachaGreif)
