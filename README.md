@@ -94,7 +94,7 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
   
 - [Vulcan.js](https://vulcanjs.org) : The full-stack React+GraphQL framework which is OS as well and Moonly is built with it.
   
-  | [<img src="https://pbs.twimg.com/profile_images/2487116271/j8ehsrukq7v6bh6tswfc_400x400.png" width="100px;"/><br /><sub><b>Sacha Greif<br/> Creator of VulcanJS</b></sub>](https://github.com/SachaG)<br /><br />[<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/instagram_circle-256.png" width="18px;"/>](https://instagram.com/sachagreif) [<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-256.png" width="18px;"/>](https://twitter.com/SachaGreif) [<img src="https://cdn1.iconfinder.com/data/icons/social-icon-1-1/512/social_style_1_dribb-256.png" width="18px;"/>](https://dribbble.com/c/sacha) |
+| [<img src="https://pbs.twimg.com/profile_images/2487116271/j8ehsrukq7v6bh6tswfc_400x400.png" width="100px;"/><br /><sub><b>Sacha Greif<br/> Creator of VulcanJS</b></sub>](https://github.com/SachaG)<br /><br />[<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/instagram_circle-256.png" width="18px;"/>](https://instagram.com/sachagreif) [<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-256.png" width="18px;"/>](https://twitter.com/SachaGreif) [<img src="https://cdn1.iconfinder.com/data/icons/social-icon-1-1/512/social_style_1_dribb-256.png" width="18px;"/>](https://dribbble.com/c/sacha) |
   | :---: |
 
 ## Contributors
