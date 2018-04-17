@@ -94,3 +94,7 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
   
 - [Vulcan.js](https://vulcanjs.org) : The full-stack React+GraphQL framework which is OS as well and Moonly is built with it.
   - Sascha (Creator of VulcanJS): @SachaG [twitter](https://twitter.com/SachaGreif)
+
+## Contributors
+
+Join us in contributions and your name will be listed here as well! Thank you for support! :heart: 
