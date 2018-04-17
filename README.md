@@ -88,10 +88,9 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 ## Credits and references
 
 - [Vanila.io](https://vanila.io) : Team which created and maintain the Moonly app.
-  - Jelena: @jelenajjo [instagram](https://instagram.com/plavookac)
-  - Stefan: @shtefcs [facebook](https://www.facebook.com/stefan.smiljkovic)
-  - Tahy: @entrptaher [instagram](https://instagram.com/entrptaher)
-  - Vijay: [dribbble](https://dribbble.com/realvjy)
+
+| [<img src="https://instagram.fbeg2-1.fna.fbcdn.net/vp/5a92d144cd10f29b0922f812317f2175/5B6F166C/t51.2885-15/e35/30086970_2052232795048853_1375623066507280384_n.jpg" width="100px;"/><br /><sub><b>Jelena Jovanovic</b></sub>](https://instagram.com/plavookac)<br />[👀](https://github.com/jelenajjo) | [<img src="https://scontent.fbeg2-1.fna.fbcdn.net/v/t1.0-9/16938831_1876864695931222_8322976474409168010_n.jpg?_nc_cat=0&oh=a7ba5c1965053059d9c6d21c029f2c9f&oe=5B27E09D" width="100px;"/><br /><sub><b>Abu Taher</b></sub>](https://instagram.com/entrptaher)<br />[👀](https://github.com/entrptaher) | [<img src="https://scontent.fbeg2-1.fna.fbcdn.net/v/t1.0-9/21558004_273521776497426_8560203209024488486_n.jpg?_nc_cat=0&oh=dd03f038949aaface87e72dca5e67642&oe=5B5B2282" width="100px;"/><br /><sub><b>Stefan Smiljkovic</b></sub>](https://www.facebook.com/stefan.smiljkovic)<br />[👀](https://github.com/shtefcs) | [<img src="https://instagram.fbeg2-1.fna.fbcdn.net/vp/63502fd3a5f30409044d94806142e642/5B6F614F/t51.2885-19/s150x150/15803457_1017184685052948_5033685874022285312_n.jpg" width="100px;"/><br /><sub><b>Vijay Verma</b></sub>](https://dribbble.com/realvjy)<br /> |
+| :---: | :---: | :---: | :---: |
   
 - [Vulcan.js](https://vulcanjs.org) : The full-stack React+GraphQL framework which is OS as well and Moonly is built with it.
   - Sascha (Creator of VulcanJS): @SachaG [twitter](https://twitter.com/SachaGreif)
