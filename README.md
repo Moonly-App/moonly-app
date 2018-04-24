@@ -82,7 +82,7 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 
 ## Stay In Touch
 
-- [Vanila.io community chat](https://chat.vanila.io)
+- [Vanila.io community chat](https://chat.vanila.io/channel/moonly-os)
 - [Vulcan.js community chat](http://slack.vulcanjs.org/)
 
 ## Credits and references
