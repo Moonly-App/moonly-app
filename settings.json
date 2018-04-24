@@ -1,0 +1,77 @@
+{
+  "public": {
+    "title": "Moon.ly - Discover Best Content",
+    "description": "Moon.ly is a Google Chrome extension that shows curated content upon opening Chrome or a new tab.",
+
+    "logoUrl": "https://moon.ly/packages/moonly/lib/static/logo.png",
+    "faviconUrl": "https://image.prntscr.com/image/l1czDUFMSLyf4LQa9uGHWg.png",
+    "siteImage": "https://image.prntscr.com/image/F0GhZuUAQQyIXB2gYx8_7g.png",
+
+    "forum": {"requirePostsApproval": true},
+    "requireViewInvite": false,
+    "requirePostInvite": false,
+
+    "autoSubscribe": true,
+    "emailNotifications": true,
+    "postInterval": 12,
+    "RSSLinksPointTo": "link",
+    "commentInterval": 20,
+    "maxPostsPerDay": 50,
+    "startInvitesCount": 5,
+    "postsPerPage": 12,
+
+    "language": "en",
+    "locale": "en",
+
+    "twitterAccount": "foo",
+    "facebookPage": "http://facebook.com/foo",
+
+    "googleAnalyticsId": "",
+    "useSegment": false,
+    "segmentWriteKey": "",
+
+    "cloudinary": {
+      "cloudName": "",
+      "upload_preset": ""
+    }
+  },
+
+  "siteUrl": "",
+  "defaultEmail": "",
+  "scoreUpdateInterval": "30",
+  "embedlyKey": "",
+
+  "postExcerptLength": 30, 
+
+  "newsletter": {
+    "enabled": true,
+    "time": "19:30",
+    "frequency" : [1],
+    "autoSubscribe":true
+  },
+
+  "enableNewsletter":true,
+  "enableNewsletterInDev":true,
+  "newsletterProvider": "mailchimp",
+  "mailchimp": {
+    "apiKey": "-us14",
+    "listId": "",
+    "fromName": "",
+    "fromEmail": ""
+  },
+  "newsletterExcerptLength": 20,
+
+
+  "mailUrl":"",  
+
+  "oAuth": {
+    "twitter": {
+      "consumerKey": "",
+      "secret": ""
+    },
+    "facebook": {
+      "appId": "",
+      "secret": ""
+    }
+  }
+}
