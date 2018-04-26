@@ -29,6 +29,11 @@ Install the latest version of Node and NPM. We recommend the usage of [NVM](http
 
 You can then install [Meteor](https://www.meteor.com/install).
 
+Prerequisites for Linux:
+```bash
+sudo apt install g++
+```
+
 To get started: clone this repo
 
 ```
@@ -82,7 +87,7 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 
 ## Stay In Touch
 
-- [Vanila.io community chat](https://chat.vanila.io)
+- [Vanila.io community chat](https://chat.vanila.io/channel/moonly-os)
 - [Vulcan.js community chat](http://slack.vulcanjs.org/)
 
 ## Credits and references
