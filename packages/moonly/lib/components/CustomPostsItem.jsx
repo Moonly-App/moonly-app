@@ -53,7 +53,7 @@ class CustomPostsItem extends getRawComponent('PostsItem') {
       backgroundRepeat: "no-repeat"
     };
 
-    let domainFavicon = "http://s2.googleusercontent.com/s2/favicons?domain_url=" + Utils.getDomain(post.url);
+    let domainFavicon = "https://s2.googleusercontent.com/s2/favicons?domain_url=" + Utils.getDomain(post.url);
 
    //  console.log(this.renderCategories())
 
