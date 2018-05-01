@@ -82,7 +82,11 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 
 ## Stay In Touch
 
+<<<<<<< HEAD
 - [Vanila.io community chat](https://chat.vanila.io)
+=======
+- [Vanila.io community chat](https://chat.vanila.io/channel/moonly-os)
+>>>>>>> d815e4ce400f1151e2e73632db254c953dcbb150
 - [Vulcan.js community chat](http://slack.vulcanjs.org/)
 
 ## Credits and references
@@ -100,3 +104,9 @@ If you have questions, concerns, bug reports, etc, please file an issue in this 
 ## Contributors
 
 Join us in contributions and your name will be listed here as well! Thank you for support! :heart: 
+<<<<<<< HEAD
+=======
+
+| [<img src="https://pbs.twimg.com/profile_images/895037829864194048/KKK42V6J_400x400.jpg" width="100px;"/><br /><sub><b>Vladimir Jovanovic</b></sub>](https://github.com/VladimirDev93)<br /><br />[<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/instagram_circle-256.png" width="18px;"/>](https://instagram.com/whyse_man) [<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-256.png" width="18px;"/>](https://twitter.com/_WhyseMan_) [<img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-256.png" width="18px;"/>](https://www.linkedin.com/in/vladimirdev/)|
+| :---: |
+>>>>>>> d815e4ce400f1151e2e73632db254c953dcbb150
