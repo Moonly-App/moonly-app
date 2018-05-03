@@ -44,7 +44,7 @@ class CustomPostsPage extends getRawComponent("PostsPage") {
     } else {
       const post = this.props.document;
 
-       let domainFavicon = "http://s2.googleusercontent.com/s2/favicons?domain_url=" + Utils.getDomain(post.url);
+       let domainFavicon = "https://s2.googleusercontent.com/s2/favicons?domain_url=" + Utils.getDomain(post.url);
 
       const htmlBody = {
         __html: post.htmlBody

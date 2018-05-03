@@ -1,5 +1,6 @@
 {
-  "name": "Vulcan",
+  "name": "vulcan",
+  "productName": "Moon.ly",
   "version": "1.2.0",
   "engines": {
     "npm": "^3.0"

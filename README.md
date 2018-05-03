@@ -29,6 +29,11 @@ Install the latest version of Node and NPM. We recommend the usage of [NVM](http
 
 You can then install [Meteor](https://www.meteor.com/install).
 
+Prerequisites for Linux:
+```bash
+sudo apt install g++
+```
+
 To get started: clone this repo
 
 ```
